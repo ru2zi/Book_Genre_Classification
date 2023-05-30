@@ -1,0 +1,34 @@
+program: train.py
+method: bayes
+metric:
+  name: val_loss
+  goal: minimize
+parameters:
+  weight_decay: 
+    distribution: uniform
+    min: 0
+    max: 0.1
+  num_warmup_steps_rate: 
+    distribution: categorical
+    values:
+      - 0
+      - 1
+  num_cycles: 
+    distribution: uniform
+    min: 0
+    max: 0.5
+  train_batch_size: 
+    distribution: categorical
+    values:
+      - 8
+      - 16
+  valid_batch_size: 
+    distribution: categorical
+    values:
+      - 8
+      - 16
+  dropout:
+    distribution: q_uniform
+    min: 0.1
+    max: 0.5
+    q: 0.1
