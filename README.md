@@ -1,12 +1,55 @@
 # Book_Genre_Classification
 
-['sentence-transformers/all-mpnet-base-v2'] 굿
-['joeddav/distilbert-base-uncased-agnews-student']
-['andi611/distilbert-base-uncased-ner-agnews']
-['sileod/deberta-v3-base-tasksource-nli']
-['microsoft/deberta-v3-base']
-['valurank/finetuned-distilbert-news-article-categorization']굿
-['facebook/bart-base'] 굿
+['sentence-transformers/all-mpnet-base-v2'] 굿 <br>
+['joeddav/distilbert-base-uncased-agnews-student'] <br>
+['andi611/distilbert-base-uncased-ner-agnews'] <br>
+['sileod/deberta-v3-base-tasksource-nli'] <br>
+['microsoft/deberta-v3-base'] <br>
+['valurank/finetuned-distilbert-news-article-categorization']굿 <br>
+['facebook/bart-base'] 굿 <br>
+
+
+## Total model
+model_names = [
+    'abhishek/autonlp-bbc-news-classification-37229289',
+    'distilbert-base-uncased',
+    'valurank/finetuned-distilbert-news-article-categorization',
+    'mosesju/distilbert-base-uncased-finetuned-news',
+    'fabriceyhc/bert-base-uncased-ag_news',
+    'philschmid/distilbert-base-multilingual-cased-sentiment',
+    'arjuntheprogrammer/distilbert-base-multilingual-cased-sentiment-2',
+    'microsoft/deberta-v3-base',
+    'sileod/deberta-v3-base-tasksource-nli',
+    'mrm8488/bert-mini-finetuned-age_news-classification',
+    'JiaqiLee/bert-agnews',
+    'andi611/distilbert-base-uncased-ner-agnews',
+    'lucasresck/bert-base-cased-ag-news',
+    'nateraw/bert-base-uncased-ag-news',
+    'joeddav/distilbert-base-uncased-agnews-student',
+    'bertugmirasyedi/deberta-v3-base-book-classification',
+    'sentence-transformers/all-mpnet-base-v2',
+    'sentence-transformers/all-MiniLM-L6-v2',
+    'cross-encoder/nli-deberta-base',
+    'MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7',
+    'typeform/distilbert-base-uncased-mnli',
+    'facebook/bart-base',
+    'decapoda-research/llama-7b-hf',
+    'fxmarty/tiny-llama-fast-tokenizer',
+    'decapoda-research/llama-13b-hf',
+    'huggyllama/llama-7b',
+    'decapoda-research/llama-65b-hf',
+    'facebook/opt-66b',
+    'KoboldAI/OPT-6.7B-Nerybus-Mix',
+    'facebook/opt-1.3b',
+    'facebook/opt-125m',
+    'bigscience/bloom-560m',
+    'bigscience/test-bloomd-6b3',
+    'bigscience/bloom-7b1',
+    'xlm-roberta-base',
+    'roberta-base',
+    'cardiffnlp/twitter-roberta-base-sentiment-latest',
+    'openai-gpt'
+]
 
 ## 조언
 
