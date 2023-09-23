@@ -1,5 +1,32 @@
 # Book_Genre_Classification
+	Title
+label	
+Arts, Photography	3446 <br>
+Biographies, Memoirs	2895 <br>
+Calendars	1568 <br>
+Childrens Books	3451 <br>
+Computers, Technology	3363 <br>
+Cookbooks, Food, Wine	3459 <br>
+Crafts, Hobbies, Home	3444 <br>
+Education, Teaching	1098 <br>
+Engineering, Transportation	1802 <br>
+Health, Fitness, Dieting	3433 <br>
+Humor, Entertainment	3420 <br>
+Law	3393 <br>
+Literature, Fiction	3424 <br>
+Medical Books	3380 <br>
+Mystery, Thriller, Suspense	1369 <br>
+Parenting, Relationships	1722 <br>
+Reference	2182 <br>
+Religion, Spirituality	3436 <br>
+Science Fiction, Fantasy	2574 <br>
+Science, Math	3378 <br>
+Self Help	1854 <br>
+Sports, Outdoors	3428 <br>
+Test Preparation	1910 <br>
+Travel	3407 <br> 
 
+## 내가 검증한 모델
 ['sentence-transformers/all-mpnet-base-v2'] 굿 <br>
 ['joeddav/distilbert-base-uncased-agnews-student'] <br>
 ['andi611/distilbert-base-uncased-ner-agnews'] <br>
